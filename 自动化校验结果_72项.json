@@ -1,0 +1,366 @@
+{
+  "passed": 72,
+  "total": 72,
+  "results": [
+    {
+      "name": "JS语法检查",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "版本号V1.4",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "我的一天导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "全部任务导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "日程导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作日志导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "专项任务导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "头脑风暴导航",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "无优先级字段",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "ToDo计划分组函数",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "任务细节含步骤",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "任务日期周格式",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "任务重复周期",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "子任务重复设置",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "日期快捷选项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态只今明",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态比例2:2:2:1",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态左侧日标",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "字体整体放大",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "完成日志仅完成任务",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "完成日志倒序",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "完成日志月折叠",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "完成日志编辑删除",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "专项任务原站嵌入",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "专项单独Excel按钮",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "云端登录外置",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "沿用Supabase配置",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "总Excel含专项工作簿",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "总Excel可恢复专项",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "子任务删除",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "撤销恢复",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "回收站",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "分类管理",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "全局搜索",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "日周月日程",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "访问统计",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Excel版本文件名",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "保留旧存储兼容",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "页面初始化无运行错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "七个主导航实际渲染",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "name": "首页标题为我的一天",
+      "ok": true,
+      "detail": "我的一天"
+    },
+    {
+      "name": "添加顺序seq递增",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "先添加任务显示在前",
+      "ok": true,
+      "detail": "['先添加', '后添加']"
+    },
+    {
+      "name": "快速添加默认当天",
+      "ok": true,
+      "detail": "2026-08-31"
+    },
+    {
+      "name": "已生成任务可编辑",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "子任务左侧完成圆圈",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "子任务显示周期",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "子任务完成后顺序不变",
+      "ok": true,
+      "detail": "(['task_mtgm4jb0_j8k05x'], ['task_mtgm4jb0_j8k05x'])"
+    },
+    {
+      "name": "全部任务按今天/明天/稍后分组",
+      "ok": true,
+      "detail": "['⌄\\n今天\\n3', '⌄\\n明天\\n1', '⌄\\n稍后\\n1']"
+    },
+    {
+      "name": "分组显示数量",
+      "ok": true,
+      "detail": "['⌄\\n今天\\n3', '⌄\\n明天\\n1', '⌄\\n稍后\\n1']"
+    },
+    {
+      "name": "全部任务分组可折叠",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "任务行有类别/步骤/日期细节",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态仅今明两个区域",
+      "ok": true,
+      "detail": "2"
+    },
+    {
+      "name": "四状态今天/明天分区标识",
+      "ok": true,
+      "detail": "['今天\\n8月31日 周一 · 3 项', '明天\\n9月1日 周二 · 1 项']"
+    },
+    {
+      "name": "四状态每个日期含四列",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "四状态单击推进",
+      "ok": true,
+      "detail": "未开展->进行中"
+    },
+    {
+      "name": "四状态单击不跳页",
+      "ok": true,
+      "detail": "四状态"
+    },
+    {
+      "name": "工作日志显示已完成任务",
+      "ok": true,
+      "detail": "['先添加-已编辑']"
+    },
+    {
+      "name": "工作日志不显示未完成任务",
+      "ok": true,
+      "detail": "['先添加-已编辑']"
+    },
+    {
+      "name": "工作日志支持编辑按钮",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "工作日志支持删除按钮",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "日程日周月三模式",
+      "ok": true,
+      "detail": "['day', 'week', 'month']"
+    },
+    {
+      "name": "专项任务模块实际嵌入iframe",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "专项任务单独Excel按钮实际渲染",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "外层云端按钮实际渲染",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "总Excel专项表生成",
+      "ok": true,
+      "detail": "['专项任务_工作簿', '专项任务_任务']"
+    },
+    {
+      "name": "总Excel实际下载成功",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "最终浏览器运行无脚本错误",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "name": "Excel可被openpyxl打开",
+      "ok": true,
+      "detail": "['任务', '分类', '完成日志', '活动记录', '设置', '专项任务_工作簿', '专项任务_任务']"
+    },
+    {
+      "name": "Excel包含专项任务工作表",
+      "ok": true,
+      "detail": "['任务', '分类', '完成日志', '活动记录', '设置', '专项任务_工作簿', '专项任务_任务']"
+    },
+    {
+      "name": "Excel专项任务内容真实写入",
+      "ok": true,
+      "detail": "[('项目ID', '项目名称', '是否当前', '任务ID', '父任务ID', '排序', '任务名称', '具体内容', '状态', '进度', '扩展字段JSON'), ('p1', '专项A', '是', 1, '', 1, '专项任务1', '内容', '进行中', 50, '{}')]"
+    }
+  ]
+}
