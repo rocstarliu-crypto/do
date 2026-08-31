@@ -1,7 +1,6 @@
 from pathlib import Path
 import re
 import shutil
-import subprocess
 import tarfile
 import urllib.request
 
@@ -103,7 +102,7 @@ function mergedWorkspaceColumns"""
 
 
 def verify():
-    hub = (SITE / "index.html").read_text(encoding="utf-8")
+    hub = (SITE / "Idea_Task_Hub_V1.4.html").read_text(encoding="utf-8")
     app = (SITE / "special" / "js" / "app.js").read_text(encoding="utf-8")
     assert 'src="./special/"' in hub
     assert "idea-task-hub-special-v1.4.1-workspace" in hub
