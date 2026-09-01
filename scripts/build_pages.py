@@ -78,6 +78,8 @@ def build_v111():
         raise RuntimeError(f"V1.11 payload incomplete: {[p.name for p in chunks]}")
     payload = "".join(p.read_text(encoding="utf-8").strip() for p in chunks)
     html = gzip.decompress(base64.b64decode(payload)).decode("utf-8")
+    # V1.11 功能层由 V1.10 预览版演进而来；发布时统一正式版本标识。
+    html = html.replace("const VERSION='V1.10-LIFECYCLE-PREVIEW';", "const VERSION='V1.11';")
     (SITE / "index.html").write_text(html, encoding="utf-8")
     (SITE / "DO_进度管理_V1.11.html").write_text(html, encoding="utf-8")
     (SITE / ".nojekyll").write_text("", encoding="utf-8")
@@ -88,6 +90,7 @@ def verify():
     special = (SITE / "special" / "js" / "app.js").read_text(encoding="utf-8")
 
     assert "const VERSION='V1.11'" in hub
+    assert "V1.10-LIFECYCLE-PREVIEW" not in hub
     assert "function v111RootTasks()" in hub
     assert "五视图统一数据逻辑" in hub
     for label in ["我的一天", "计划内", "全部任务", "日程", "任务状态"]:
