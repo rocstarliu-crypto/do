@@ -1,0 +1,9 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DO 融合工作台 V3.4.3</title></head><body><div style="font-family:Microsoft YaHei,Arial;padding:24px;color:#475569">正在加载 DO 融合工作台…</div><script>
+fetch('./app-v343-base.html',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(html=>{
+  const patch='<scr'+'ipt src="./assets/ui-name-patch-v343.js"></scr'+'ipt>';
+  const p=html.toLowerCase().lastIndexOf('</body>');
+  if(p<0)throw new Error('未找到 body 结束标签');
+  html=html.slice(0,p)+patch+html.slice(p);
+  document.open();document.write(html);document.close();
+}).catch(e=>{document.body.innerHTML='<div style="font-family:Microsoft YaHei,Arial;padding:32px;color:#b91c1c"><h3>DO 融合工作台加载失败</h3><p>'+String(e.message||e)+'</p><p><a href="./app-v343-base.html">打开基础版本</a></p></div>'});
+</script></body></html>
