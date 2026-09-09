@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -26,18 +26,6 @@ jobs:
 
       - name: Build public site
         run: python3 scripts/build_pages.py
-
-      - name: Save generated root index
-        run: |
-          if git diff --quiet -- index.html; then
-            echo "index.html unchanged"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add index.html
-            git commit -m "Publish DO V3.4.5 as root index.html"
-            git push origin HEAD:main
-          fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
